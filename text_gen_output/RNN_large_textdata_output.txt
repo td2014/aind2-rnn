@@ -2,14 +2,29 @@
 input chars = 
 is eyes she eclipses and predominates the whole of her sex. it was not that he felt any emotion akin"
 predicted chars = 
- the the the the the the the the the the the the the the the the the the the the the the the the the"
+g the manter and the manter and the manter and the manter and the manter and the manter and the mant"
 -------------------
 input chars = 
  and predominates the whole of her sex. it was not that he felt any emotion akin to love for irene a"
 predicted chars = 
-n the the the the the the the the the the the the the the the the the the the the the the the the th"
+nd the manter and the manter and the manter and the manter and the manter and the manter and the man"
 -------------------
 input chars = 
 ler, of dubious and questionable memory. i had seen little of holmes lately. my marriage had drifted"
 predicted chars = 
- the the the the the the the the the the the the the the the the the the the the the the the the the"
+ the prouss and the manter and the manter and the manter and the manter and the manter and the mante"
+-------------------
+input chars = 
+of the singular tragedy of the atkinson brothers at trincomalee, and finally of the mission which he"
+predicted chars = 
+ had and the reather and the manter and the manter and the manter and the manter and the manter and "
+-------------------
+input chars = 
+ve us your best attention." a slow and heavy step, which had been heard upon the stairs and in the p"
+predicted chars = 
+rouss and the manter and the manter and the manter and the manter and the manter and the manter and "
+-------------------
+input chars = 
+-hat and a faded brown overcoat with a wrinkled velvet collar lay upon a chair beside him. altogethe"
+predicted chars = 
+r the prouss and the manter and the manter and the manter and the manter and the manter and the mant"
