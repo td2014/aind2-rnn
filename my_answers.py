@@ -97,6 +97,27 @@ def window_transform_text(text,window_size,step_size):
     inputs = []
     outputs = []
     
-
+    # set a sample index counter for the return array input
+    sample_index=0
+    # Loop over the input text until data is exhausted, with sliding window
+    while sample_index+window_size < len(text):
+        # create a sample vector at each sample which covers the input window
+        sample=[]
+        for win_index in range(window_size):
+            sample.append(str(text[sample_index+win_index]))
+        
+        # update windowed input
+        inputs.append(sample)
+        # obtain the next value beyond the window as the output for the current sample    
+        outputs.append(text[sample_index+window_size])
+        # advance the window by one step_size
+        sample_index=sample_index+step_size
     
+    # diagnostics
+    print('inputs[0]:', inputs[0])
+    print('outputs[0]:', outputs[0])
+    print('inputs[1]:', inputs[1])
+    print('outputs[1]:', outputs[1])
+    
+    # return results
     return inputs,outputs
