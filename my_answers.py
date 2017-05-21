@@ -66,16 +66,17 @@ def clean_text(text):
     import string
 # define lists of letters, number, and punctuations which are valid
     sLet = list(string.ascii_letters)
-    sDig = list(string.digits)
-    sPunc = list(string.punctuation)
+# include punctuation found in text + also identified in wikipedia as English punctuation.
+# under "Frequency" section of article:  https://en.wikipedia.org/wiki/Punctuation_of_English
+    sPunc = ['.', ',', ';', ':', '!', '?', "'", '"', '-']
     text_to_remove = []
 # Loop over text and check for valid characters.  If invalid, place on removal list.
     for iChar in text:
-        if iChar in sLet or iChar in sDig or iChar in sPunc or iChar==' ':
-            # normal english character, digit, punctuation
+        if iChar in sLet or iChar in sPunc or iChar==' ':
+        # normal english character, punctuation, or space
             continue
         else:
-            # some anomaly - remove
+        # some anomaly - remove
             text_to_remove.append(iChar)
         
 # remove as many non-english characters and character sequences as you can 
@@ -84,7 +85,7 @@ def clean_text(text):
     print (text_to_remove)
 # Loop over text and substitute anomalous characters with blank spaces.
     for iChar in text_to_remove:
-        # Replace anomalous character with space.
+    # Replace anomalous character with space.
         text = text.replace(iChar,' ')
     
 # shorten any extra dead space created above
