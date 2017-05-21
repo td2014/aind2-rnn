@@ -66,7 +66,7 @@ def clean_text(text):
     import string
 # define lists of letters, number, and punctuations which are valid
     sLet = list(string.ascii_letters)
-# include punctuation found in text + also identified in wikipedia as English punctuation.
+# include punctuation found in text + also identified in wikipedia as English punctuation,
 # under "Frequency" section of article:  https://en.wikipedia.org/wiki/Punctuation_of_English
     sPunc = ['.', ',', ';', ':', '!', '?', "'", '"', '-']
     text_to_remove = []
